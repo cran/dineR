@@ -1,6 +1,6 @@
 Package: dineR
 Title: Differential Network Estimation in R
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: 
     c(person(given = "Ricardo Daniel",
            family = "Marques Salgado",
@@ -24,11 +24,11 @@ Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2021-11-02 15:57:26 UTC; danie
+Packaged: 2021-11-13 09:29:04 UTC; danie
 Author: Ricardo Daniel Marques Salgado [aut, cre]
     (<https://orcid.org/0000-0002-6415-7379>),
   Andriette Bekker [ctb],
   Mohammad Arashi [ctb]
 Maintainer: Ricardo Daniel Marques Salgado <ricardodansalgado@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-11-03 20:00:10 UTC
+Date/Publication: 2021-11-15 09:20:12 UTC

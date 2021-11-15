@@ -365,8 +365,8 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; --------------------------------------------------------------------------------</span></span></code></pre></div>
 <p>While the estimation process is busy, a progress bar should appear within the R Console showing the status of the optimization along with an estimated time remaining. The estimation then returns a great deal of items, and more if tuning is performed. For an overview on the items returned we can do the following:</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(result)</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  [1] &quot;n_X&quot;      &quot;n_Y&quot;      &quot;Sigma_X&quot;  &quot;Sigma_Y&quot;  &quot;loss&quot;     &quot;lip&quot;     </span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  [7] &quot;iter&quot;     &quot;elapse&quot;   &quot;lambdas&quot;  &quot;sparsity&quot; &quot;path&quot;</span></span></code></pre></div>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  [1] &quot;n_X&quot;      &quot;n_Y&quot;      &quot;Sigma_X&quot;  &quot;Sigma_Y&quot;  &quot;loss&quot;     &quot;tuning&quot;  </span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  [7] &quot;lip&quot;      &quot;iter&quot;     &quot;elapse&quot;   &quot;lambdas&quot;  &quot;sparsity&quot; &quot;path&quot;</span></span></code></pre></div>
 <p>In the above output, arguably the most important component is the “path” which is the final differential network estimate for each of the lambdas for the chosen loss function. As such, in the above example “path” consists of 50 different estimates, one for each lambda.</p>
 </div>
 
